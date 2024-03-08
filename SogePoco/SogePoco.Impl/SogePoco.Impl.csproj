@@ -6,7 +6,7 @@
     <LangVersion>10</LangVersion>
     <PackageLicenseUrl>https://raw.githubusercontent.com/d-p-y/SogePoco/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/d-p-y/SogePoco</RepositoryUrl>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <PackageId>SogePoco.Impl</PackageId>
     <PackageTags>Source generator;sourcegenerator;database;ORM</PackageTags>
     <Description>SogePoco SOurce GEnerated POCOs. ORM-ish thing inspired by PetaPoco</Description>

@@ -11,7 +11,7 @@
 #r "nuget: Microsoft.Bcl.AsyncInterfaces, 7.0.0.0"
 
 //SogePoco nuget
-//#r "nuget: SogePoco.Impl, 0.0.1"
+//#r "nuget: SogePoco.Impl, 0.0.2"
 #r "../../../../SogePoco/SogePoco.Impl/bin/Debug/netstandard2.0/SogePoco.Impl.dll"
 
 //db driver
