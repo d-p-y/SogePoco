@@ -8,6 +8,7 @@ cd "${DIR}"
 
 ./rm_bin_obj.sh
 ./switch_templates_to_nuget.sh
+./set_version_in_csprojs.sh
 
 cd "${DIR}/.."
 PACKAGES_DIR=$(realpath .)/bin/nuget_source/
@@ -37,5 +38,6 @@ cd scripts
 ./switch_templates_to_projectreferences.sh
 
 echo "OK"
+
 
 
