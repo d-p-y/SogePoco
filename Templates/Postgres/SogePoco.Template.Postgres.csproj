@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>SogePoco.Template.Postgres</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>Postgres template for SogePoco SOurce GEnerated POCOs. ORM-ish LINQ-ish thing inspired by PetaPoco</Title>
+    <Authors>Dominik Pytlewski</Authors>
+    <Description>SogePoco SOurce GEnerated POCOs. ORM-ish LINQ-ish thing inspired by PetaPoco</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/d-p-y/SogePoco/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/d-p-y/SogePoco</RepositoryUrl>
+    <PackageType>Template</PackageType>
+
+    <TargetFramework>net6.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SogePoco.Template.Postgres\**\*" Exclude="SogePoco.Template.Postgres\**\bin\**;SogePoco.Template.Postgres\**\obj\**;SogePoco.Template.Postgres\.idea\**;SogePoco.Template.Postgres\.vs\**;SogePoco.Template.Postgres\SomePostgresApp.Dev.sln;SogePoco.Template.Postgres\SomePostgresApp.SogePocoConfigAndSourceGenerator\dbschema.json" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

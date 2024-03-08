@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "SogePoco.Template.SqlServer",
+	"name": "SqlServer template for SogePoco SOurce GEnerated POCOs. ORM-ish LINQ-ish thing inspired by PetaPoco",
+    "shortName": "sogepoco-template-sqlserver",
+    "tags": {
+        "language": "C#",
+        "type":"solution"
+    },
+    "sourceName": "SomeSqlServerApp",
+    "author": "Dominik Pytlewski",
+	"guids": [
+		"6381390A-F94D-4807-845B-4EB474E9D5F2",
+		"336C8CDA-7582-4A9B-B5C9-C73572E4EFF3",
+		"8A47577A-7D4C-4322-B343-1D0BC400CC6D",
+		"CEBFC9A8-B5C7-4B4A-ABD5-D05FEF02677B"
+    ]
+}

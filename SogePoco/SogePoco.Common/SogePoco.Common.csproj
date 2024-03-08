@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+      <LangVersion>10</LangVersion>
+      <PackageLicenseUrl>https://raw.githubusercontent.com/d-p-y/SogePoco/master/LICENSE</PackageLicenseUrl>
+      <RepositoryUrl>https://github.com/d-p-y/SogePoco</RepositoryUrl>
+      <Version>0.0.1</Version>
+      <PackageId>SogePoco.Common</PackageId>
+      <PackageTags>Source generator;sourcegenerator;database;ORM</PackageTags>
+      <Description>SogePoco SOurce GEnerated POCOs. ORM-ish thing inspired by PetaPoco</Description>
+      <Authors>Dominik Pytlewski</Authors>
+      <Product>SogePoco</Product>
+  </PropertyGroup>
+</Project>

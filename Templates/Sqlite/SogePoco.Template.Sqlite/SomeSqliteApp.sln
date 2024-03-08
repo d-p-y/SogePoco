@@ -1,0 +1,42 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeSqliteApp", "SomeSqliteApp\SomeSqliteApp.csproj", "{6381390A-F94D-4807-845B-4EB474E9D5F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeSqliteApp.Pocos", "SomeSqliteApp.Pocos\SomeSqliteApp.Pocos.csproj", "{336C8CDA-7582-4A9B-B5C9-C73572E4EFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeSqliteApp.Queries", "SomeSqliteApp.Queries\SomeSqliteApp.Queries.csproj", "{8A47577A-7D4C-4322-B343-1D0BC400CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeSqliteApp.SogePocoConfigAndSourceGenerator", "SomeSqliteApp.SogePocoConfigAndSourceGenerator\SomeSqliteApp.SogePocoConfigAndSourceGenerator.csproj", "{CEBFC9A8-B5C7-4B4A-ABD5-D05FEF02677B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6381390A-F94D-4807-845B-4EB474E9D5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6381390A-F94D-4807-845B-4EB474E9D5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6381390A-F94D-4807-845B-4EB474E9D5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6381390A-F94D-4807-845B-4EB474E9D5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336C8CDA-7582-4A9B-B5C9-C73572E4EFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336C8CDA-7582-4A9B-B5C9-C73572E4EFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336C8CDA-7582-4A9B-B5C9-C73572E4EFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336C8CDA-7582-4A9B-B5C9-C73572E4EFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A47577A-7D4C-4322-B343-1D0BC400CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A47577A-7D4C-4322-B343-1D0BC400CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A47577A-7D4C-4322-B343-1D0BC400CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A47577A-7D4C-4322-B343-1D0BC400CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBFC9A8-B5C7-4B4A-ABD5-D05FEF02677B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBFC9A8-B5C7-4B4A-ABD5-D05FEF02677B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBFC9A8-B5C7-4B4A-ABD5-D05FEF02677B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBFC9A8-B5C7-4B4A-ABD5-D05FEF02677B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

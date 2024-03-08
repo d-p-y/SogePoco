@@ -1,0 +1,43 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+.idea
+CONTAINER_ID
+.vscode
+*.nupkg
+extract-from-pw_tst.sh
+AttemptTwo/SogePoco.Playground.WithoutIntegratedSrcGen/PocosAndDb/
+AttemptTwo/SogePoco.Playground.WithoutIntegratedSrcGen/Queries/
+Generated
+sourcegeneratorlog.txt
+*.db
+dbschema.json
+*.bkp

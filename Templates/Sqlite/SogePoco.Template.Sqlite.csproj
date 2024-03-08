@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>SogePoco.Template.Sqlite</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>Sqlite template for SogePoco SOurce GEnerated POCOs. ORM-ish LINQ-ish thing inspired by PetaPoco</Title>
+    <Authors>Dominik Pytlewski</Authors>
+    <Description>SogePoco SOurce GEnerated POCOs. ORM-ish LINQ-ish thing inspired by PetaPoco</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/d-p-y/SogePoco/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/d-p-y/SogePoco</RepositoryUrl>
+    <PackageType>Template</PackageType>
+
+    <TargetFramework>net6.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SogePoco.Template.Sqlite\**\*" Exclude="SogePoco.Template.Sqlite\**\bin\**;SogePoco.Template.Sqlite\**\obj\**;SogePoco.Template.Sqlite\.idea\**;SogePoco.Template.Sqlite\.vs\**;SogePoco.Template.Sqlite\SomeSqliteApp.Dev.sln;SogePoco.Template.Sqlite\SomeSqliteApp.SogePocoConfigAndSourceGenerator\dbschema.json" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

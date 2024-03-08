@@ -1,0 +1,83 @@
+<mxfile host="Electron" modified="2024-01-24T08:53:33.229Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="4wHcAms6Y6x8kERFUrmn" version="22.1.18" type="device">
+  <diagram name="Page-1" id="tdAFmC3SVw97Tts4Q-Ay">
+    <mxGraphModel dx="900" dy="1901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OguY2kskpmMPCtXBtCeX-2" value="dbschema.json" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#4D4D4D;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;fontSize=12;shadow=0;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="-895" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-3" value="source generator" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#808080;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+          <mxGeometry x="480.5" y="-890" width="49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.017;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OguY2kskpmMPCtXBtCeX-3" target="OguY2kskpmMPCtXBtCeX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320.5" y="-909.9199999999998" as="sourcePoint" />
+            <mxPoint x="121.75999999999988" y="-829.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-5" value="2) generator reads &lt;br&gt;cached&amp;nbsp;&amp;nbsp;schema" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-4">
+          <mxGeometry x="-0.171" relative="1" as="geometry">
+            <mxPoint x="-32" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.067;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OguY2kskpmMPCtXBtCeX-3" target="OguY2kskpmMPCtXBtCeX-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330.5" y="-899.9199999999998" as="sourcePoint" />
+            <mxPoint x="550.5" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-17" value="4) generate POCO classes &lt;br&gt;adding them on the fly to &lt;br&gt;compilation/DLL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-7">
+          <mxGeometry x="0.1126" y="-1" relative="1" as="geometry">
+            <mxPoint x="3" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OguY2kskpmMPCtXBtCeX-11" target="OguY2kskpmMPCtXBtCeX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5" y="-846" as="sourcePoint" />
+            <mxPoint x="110.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-13" value="1) generator spots&lt;br&gt;attribute usage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-12">
+          <mxGeometry x="-0.171" relative="1" as="geometry">
+            <mxPoint x="53" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-9" value="SogePocoSqlServerConfig.cs" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
+          <mxGeometry x="54" y="-790" width="57" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OguY2kskpmMPCtXBtCeX-3" target="OguY2kskpmMPCtXBtCeX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.5" y="-866" as="sourcePoint" />
+            <mxPoint x="110.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-15" value="3) guide generator which classes and &lt;br&gt;methods to generate and &lt;br&gt;how (e.g. naming)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-14">
+          <mxGeometry x="-0.171" relative="1" as="geometry">
+            <mxPoint x="-16" y="64" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-16" value="POCO classes &lt;br&gt;e.g. SomeTable.cs" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-890" width="57" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-18" value="Database class providing methods to &lt;br&gt;insert, update, delete POCOs&lt;br&gt;e.g. Task&amp;nbsp;Insert(SomeTable poco)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-760" width="57" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.96;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OguY2kskpmMPCtXBtCeX-3" target="OguY2kskpmMPCtXBtCeX-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="538.5" y="-838" as="sourcePoint" />
+            <mxPoint x="790.5" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-20" value="5) generate database.cs &lt;br&gt;class&amp;nbsp;and adding it on the &lt;br&gt;fly to&amp;nbsp;compilation/DLL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-19">
+          <mxGeometry x="0.1126" y="-1" relative="1" as="geometry">
+            <mxPoint x="-45" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-11" value="attribute [GenerateDatabaseClassAndPocos] &lt;br&gt;used on some class in your project" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#808080;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+          <mxGeometry x="450.5" y="-1090" width="49" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

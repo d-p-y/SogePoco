@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.11" />
+        <PackageReference Include="SQLitePCLRaw.core" Version="2.1.6" />
+        
+        <!-- source generator -->
+        <ProjectReference Include="..\..\..\..\SogePoco\SogePoco.Common\SogePoco.Common.csproj" />
+        <ProjectReference Include="..\SomeSqliteApp.SogePocoConfigAndSourceGenerator\SomeSqliteApp.SogePocoConfigAndSourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" PrivateAssets="All" />
+        
+        <!-- source generator's dependencies have to be explicitly added as if it was another sourcegenerator -->
+        <ProjectReference Include="..\..\..\..\SogePoco\SogePoco.Impl\SogePoco.Impl.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" PrivateAssets="All" />
+    </ItemGroup>
+</Project>

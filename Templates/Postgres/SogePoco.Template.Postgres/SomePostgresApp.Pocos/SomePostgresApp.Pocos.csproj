@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Npgsql" Version="7.0.6" />        
+        
+        <!-- source generator -->
+        <ProjectReference Include="..\..\..\..\SogePoco\SogePoco.Common\SogePoco.Common.csproj" />
+        <ProjectReference Include="..\SomePostgresApp.SogePocoConfigAndSourceGenerator\SomePostgresApp.SogePocoConfigAndSourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" PrivateAssets="All" />
+        
+        <!-- source generator's dependencies have to be explicitly added as if it was another sourcegenerator -->
+        <ProjectReference Include="..\..\..\..\SogePoco\SogePoco.Impl\SogePoco.Impl.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" PrivateAssets="All" />
+    </ItemGroup>
+</Project>

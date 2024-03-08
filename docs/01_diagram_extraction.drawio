@@ -1,0 +1,41 @@
+<mxfile host="Electron" modified="2024-01-24T08:13:38.040Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="540bb5lIEK4-_PfwemF6" version="22.1.18" type="device">
+  <diagram name="Page-1" id="tdAFmC3SVw97Tts4Q-Ay">
+    <mxGraphModel dx="782" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OguY2kskpmMPCtXBtCeX-1" value="database server" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-2" value="dbschema.json" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#4D4D4D;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;fontSize=12;shadow=0;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-3" value="database schema extraction &lt;br&gt;(e.g. dotnet script extract-sqlserver.csx)" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#808080;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.021;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="60.08000000000011" as="sourcePoint" />
+            <mxPoint x="111.25999999999988" y="140.00000000000009" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-5" value="1) query&amp;nbsp;information&lt;br&gt;&amp;nbsp;schema" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-4">
+          <mxGeometry x="-0.171" relative="1" as="geometry">
+            <mxPoint x="-47" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.04;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.988;exitY=0.839;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OguY2kskpmMPCtXBtCeX-3" target="OguY2kskpmMPCtXBtCeX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="70.08000000000011" as="sourcePoint" />
+            <mxPoint x="121.25999999999988" y="150.00000000000009" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OguY2kskpmMPCtXBtCeX-8" value="2) serialize schema &lt;br&gt;to file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OguY2kskpmMPCtXBtCeX-7">
+          <mxGeometry x="-0.171" relative="1" as="geometry">
+            <mxPoint x="51" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

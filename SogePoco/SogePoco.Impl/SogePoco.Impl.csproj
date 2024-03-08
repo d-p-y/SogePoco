@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/d-p-y/SogePoco/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/d-p-y/SogePoco</RepositoryUrl>
+    <Version>0.0.1</Version>
+    <PackageId>SogePoco.Impl</PackageId>
+    <PackageTags>Source generator;sourcegenerator;database;ORM</PackageTags>
+    <Description>SogePoco SOurce GEnerated POCOs. ORM-ish thing inspired by PetaPoco</Description>
+    <Authors>Dominik Pytlewski</Authors>
+    <Product>SogePoco</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.4.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SogePoco.Common\SogePoco.Common.csproj" />
+  </ItemGroup>
+</Project>
